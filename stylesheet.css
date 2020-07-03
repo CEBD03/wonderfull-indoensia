@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*header*/
+li {
+  list-style: none;
+  float: left;
+  padding-right: 20px;
+  font-family: "tw cen mt";
+  color: white;
+  font-size: 25px;
+}
+
+header {
+  height: 90%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+    width: auto;
+    padding-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  transition: all 0.5s;
+}
+
+li:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  height: 400px;
+  background-image: url(header.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: "tw cen mt";
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  color: #ffcc00;
+}
+
+.top-wrapper h2 {
+  font-size: 60px;
+  background-color: #ffc100;
+  color: #4b0f0f;
+  opacity: 0.8;
+  width: 700;
+  margin: 0 auto;
+}
+
+/*endheader*/
+
+/*abaoutus*/
+.main-about {
+	height: 90%;
+	background-color: #F2B749;
+}
+
+.about-wrapper {
+	width: 1200px;
+	margin: 0 auto
+}
+
+.about {
+	text-align: center;
+	width: 750px;
+	padding-top: 50px;
+	float: left;
+}
+
+.about h2 {
+	font-family: "Georgia";
+	font-size: 48px;
+	color: #BF3945;
+	padding-left: 50px;
+  padding-top: 130px;
+}
+
+.about p {
+	font-family: "Trebuchet MS";
+	font-size: 20px;
+	font-style: italic;
+	color: #592C28;
+	padding-left: 50px;
+}
+
+.about-pic {
+	width: 400px;
+	padding-bottom: 10px;
+	padding-top: 150px;
+	float: right;
+}
+/*endaboutus*/
+
+/*whyus*/
+.main-why {
+  height: 75%;
+	background-color: #42b6f5;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.head {
+  color: #5f5d60;
+	border-bottom: 1px solid #F2EBDC;
+}
+
+.head h2 {
+	font-family: "Georgia";
+	font-size: 48px;
+	color: #BF3945;
+  font-weight: normal;
+}
+
+.point {
+  padding-top: 100px;
+	width: 33%;
+	float: left;
+}
+
+.point-icon {
+  position: relative;
+}
+
+.point-icon p {
+  top: 90px;
+  color: white;
+  font-family: "Trebuchet MS";
+  font-size: 14px;
+  color: white;
+  width: 100%;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+/*endwhyus*/
+
+/*bestoffer*/
+/*endwhyus*/
+
+/*book*/
+/*endbook*/
+
+/*contactus*/
+/*endcontactus*/
+
+/*footer*/
+.footer {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: #c93c3c;
+  padding: 3vw 0;
+}
+
+.footer-left {
+  margin-top: 40px;
+  float: left;
+}
+
+.footer-submit {
+  font-family: "Trebuchet MS";
+}
+
+.footer-submit p {
+  font-family: "Trebuchet MS";
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input, textarea{
+  width: 130%;
+  height: 25px;
+  margin-top: 1px;
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit{
+  width: 35%;
+  height: 35px;
+  margin-top: 1px;
+  padding: 1px;
+  font-size: 18px;
+  border: 1px solid #f7e840;
+  background-color: #f5b042;
+  color: red;
+  font-family: Trebuchet;
+  box-shadow: 0px 0px #000;
+  cursor: pointer;
+}
+
+.contact-submit:hover{
+  display: block;
+  box-shadow: none;
+  background-color: yellow;
+}
+
+.footer-right {
+  float: right;
+  margin-top: 30px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.footer-right li {
+  font-family: "Trebuchet MS";
+  font-size: 20px;
+  text-align: center;
+  padding-right: 15px;
+}
+
+.footer-logo {
+    height: 30px;
+    padding-top: 20px;
+}
+.footer-logo1 {
+    height: 60px;
+    padding-top: 5px;
+}
+/*endfooter*/
